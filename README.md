@@ -10,6 +10,16 @@ Add prepackaged `dist/jquery.center.js` to your page. There is also a minified v
 
 Alternatively you may install the plugin via Bower.
 
+## Development
+
+You'll need to have Node, Bower and Grunt installed. After that the following workflow should do the trick:
+
+1. sudo npm install
+2. bower install
+3. grunt
+
+The last command will run a development server.
+
 ## License
 
 jquery.center.js is available under MIT. See LICENSE for more details.
