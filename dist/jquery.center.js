@@ -1,4 +1,4 @@
-/*! jquery.center - v0.1.2 - Juho Vepsalainen - MIT
+/*! jquery.center - v0.2.0 - Juho Vepsalainen - MIT
 https://github.com/bebraw/jquery.center.js - 2013-03-10 */
 (function ($) {
     if(window.Zepto) {
