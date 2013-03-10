@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, user-scalable=no" />
 <title>Demo</title>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>
+    document.write('<script src="javascripts/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js"><\/script>')
+</script>
 <script src="dist/jquery.center.js"></script>
 <script type="text/javascript">
 $(function() {
