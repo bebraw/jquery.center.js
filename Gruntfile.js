@@ -61,19 +61,13 @@ module.exports = function(grunt) {
                 files: ['src/*.js', 'index.html'],
                 tasks: 'refresh'
             }
-        },
-        shell: {
-            generate_all: {
-                command: './scripts/generate.js all'
-            }
         }
     });
 
-    grunt.registerTask('refresh', ['concat:basic', 'uglify', 'shell:generate_all', 'jekyll:dev']);
+    grunt.registerTask('refresh', ['concat:basic', 'uglify', 'jekyll:dev']);
     grunt.registerTask('default', ['refresh', 'connect:server', 'livereload-start', 'watch']);
 
     ['grunt-jekyll',
-     'grunt-shell',
      'grunt-contrib-concat',
      'grunt-contrib-uglify',
      'grunt-contrib-watch',
