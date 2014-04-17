@@ -1,3 +1,5 @@
+'use strict';
+
 var path = require('path');
 var lrSnippet = require('grunt-contrib-livereload/lib/utils').livereloadSnippet;
 
@@ -42,7 +44,7 @@ module.exports = function(grunt) {
             livereload: {
                 options: {
                     port: 9001,
-                    middleware: function(connect, options) {
+                    middleware: function(connect) {
                         return [lrSnippet, folderMount(connect, '.')];
                     }
                 }
@@ -52,7 +54,6 @@ module.exports = function(grunt) {
             dev: {
                 src: '.',
                 dest: '_site',
-                pygments: true,
                 safe: true
             }
         },
