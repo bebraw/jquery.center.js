@@ -4,3 +4,4 @@ safe: true
 server: true
 pygments: true
 exclude: ['node_modules']
+markdown: kramdown
