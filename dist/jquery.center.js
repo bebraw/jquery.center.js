@@ -1,4 +1,4 @@
-/*! jquery.center - v0.2.0 - Juho Vepsalainen - MIT
+/*! jquery.center - v0.3.0 - Juho Vepsalainen - MIT
 https://github.com/bebraw/jquery.center.js - 2014-04-17 */
 (function ($) {
     'use strict';
